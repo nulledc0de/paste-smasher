@@ -1,5 +1,12 @@
 ## paste-smasher
-paste-smasher is an injectable dll that is targeted towards dumping p2c's that manually map their dll and that use WriteProcessMemory and VirtualAllocEx in their injectors, and this dumper hooks the syscall NtWriteVirtualMemory in an effort to capture all writes.
+paste-smasher is an injectable dll that is targeted towards dumping p2c's that manually map their dll and that use WriteProcessMemory and VirtualAllocEx in their injectors.
+
+# features:
+1. hooks syscall for NtWriteVirtualMemory
+2. hooks VirtualAllocEx
+3. console logging
+4. file logging
+5. dumping memory buffer to file as it's written
 
 # how do i use this?
 1. compile in release/debug in x86/x64 depending on your target process.
