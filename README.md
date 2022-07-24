@@ -33,5 +33,4 @@ paste-smasher is an injectable dll that is targeted towards dumping p2c's that m
 ```
 
 # credits:
-TsudaKageyu - [minhook](https://github.com/TsudaKageyu/minhook)
-, JustasMasiulis - [xorstr](https://github.com/JustasMasiulis/xorstr)
+TsudaKageyu - [minhook](https://github.com/TsudaKageyu/minhook), JustasMasiulis - [xorstr](https://github.com/JustasMasiulis/xorstr)
