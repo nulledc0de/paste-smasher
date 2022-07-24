@@ -1,14 +1,13 @@
 ## paste-smasher
-
-paste-smasher is an injectable dll that is targeted towards dumping p2c's that manually map their dll and that use WriteProcessMemory and VirtualAllocEx in their injectors, and this dumper hooks the syscall NtWriteVirtualMemory in an effort to capture all writes
+paste-smasher is an injectable dll that is targeted towards dumping p2c's that manually map their dll and that use WriteProcessMemory and VirtualAllocEx in their injectors, and this dumper hooks the syscall NtWriteVirtualMemory in an effort to capture all writes.
 
 # how do i use this?
-1. compile in release/debug in x86/x64 depending on your target process
-2. edit the settings of the dumper to your likings inside of hooks/hooks.h
-3. inject into your target loader with your favorite injector can be manually mapped or injected with any injector
-4. a "dumps" directory will be created next to the dll if you have dumping enabled, and a log file will be created next to the dumper's dll if you have file logging enabled as well
+1. compile in release/debug in x86/x64 depending on your target process.
+2. edit the settings of the dumper to your likings inside of hooks/hooks.h.
+3. inject into your target loader with your favorite injector can be manually mapped or injected with any injector.
+4. a "dumps" directory will be created next to the dll if you have dumping enabled, and a log file will be created next to the dumper's dll if you have file logging enabled as well.
 
-# example log output
+# example log output:
 ```cpp
 // example output from log file
 [paste-smasher] setup hooks
