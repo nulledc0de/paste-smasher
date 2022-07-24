@@ -7,7 +7,7 @@ paste-smasher is an injectable dll that is targeted towards dumping p2c's that m
 3. console logging
 4. file logging
 5. dumping memory buffer to file as it's written
-6. customizeable settings
+6. customizable settings
 
 # how do i use this?
 1. compile in release/debug in x86/x64 depending on your target process.
